@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+ 
+   <!--test name="ChromeTest">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.company.DriverSetup"/>
+      <class name="com.company.closeBrowser"></class>
+    </classes>
+   </test-->
+  <test name="MicrosoftEdgeTest">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.company.DriverSetup"/>
+      <class name="com.company.closeBrowser"></class>
+    </classes>
+  </test>
+
+  <test name="aboutClickTest">
+
+    <classes>
+      <class name="com.company.clickAboutMenu"/>
+
+    </classes>
+  </test>
+
+  <test name="contactUsTest">
+
+    <classes>
+      <class name="com.company.clickContactUsMenu"/>
+
+    </classes>
+  </test>
+
+  <test name="TwitterTest">
+
+    <classes>
+      <class name="com.company.validateTwitter"/>
+
+    </classes>
+  </test>
+  <test name="FaceBookTest">
+
+    <classes>
+      <class name="com.company.validateFacebook"/>
+
+    </classes>
+  </test>
+  <test name="LinkedInTest">
+    <classes>
+      <class name="com.company.validateLinkedIn"/>
+
+    </classes>
+  </test>
+  <test name="ContactOurTeamTest">
+    <classes>
+      <class name="com.company.clickContactOurTeam"/>
+
+    </classes>
+  </test>
+  <test name="ValidateAttributesTest">
+    <classes>
+      <class name="com.company.validateContactFields"/>
+
+    </classes>
+  </test>
+  <test name="ValidateContactAttributesTest">
+
+    <classes>
+      <class name="com.company.validateContactElements"/>
+
+    </classes>
+  </test>
+  <test name="ValidateLatestThinkingTest">
+
+    <classes>
+      <class name="com.company.LatestThinkingClass"/>
+
+    </classes>
+  </test>
+  <test name="JSONFileTest">
+
+    <classes>
+      <class name="com.company.JSONFileCreateClass"/>
+      <class name="com.company.JSONFileReadClass"></class>
+
+    </classes>
+  </test>
+
+
+</suite> <!-- Suite -->
